@@ -3,13 +3,20 @@ import './nav.css'
 export default function Navbar() {
     return (
         <nav className='nav'>
-            <img src={dynamo} alt='Dynamo UI' width={80} height={50} className='img' onClick={() => {
+            <img src={dynamo} alt='Dynamo UI' width={110} height={75} className='img' onClick={() => {
                 window.location.href = "/";
             }} />
             <div>
-                <button>
+                <div onClick={() => {
+                    <div className='container'>
+                        <ul>
+                            <li>Components</li>
+                            <li>Utilities</li>
+                        </ul>
+                    </div>
+                }}>
                     Components
-                </button>
+                </div>
             </div>
         </nav>
     );

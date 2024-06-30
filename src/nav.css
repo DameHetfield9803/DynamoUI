@@ -17,13 +17,28 @@ nav.nav {
         padding: 4px;
         color:bisque;
         align-items: center;
-        button{
+        div{
             background-color: ivory;
+            font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
             border-radius: 8px;
-            size: 64px;
-            height: 36px;
+            position:relative;
+            size: 75px;
+            margin-left: 8px;
+            padding: 8px;
+            height: 44px;
             color:black;
+            flex-shrink: 10em;
             cursor: pointer;
+            div.container{
+                box-shadow: 8em;
+                width: calc(max-content + 12px);
+                display: flex;
+                color: aqua;
+                flex-direction: column;
+                ul{
+                    text-align: left;
+                }
+            }
         }
     }
 }
