@@ -1,0 +1,29 @@
+nav.nav {
+    position:relative;
+    flex-direction:row;
+    text-wrap:pretty;
+    display: flex;
+    flex:auto;
+    background-color: black;
+}
+
+.nav {
+    img.img {
+        border-radius: 8px;
+        margin-right: 2px;
+    }
+    div{
+        margin-left: 6px;
+        padding: 4px;
+        color:bisque;
+        align-items: center;
+        button{
+            background-color: ivory;
+            border-radius: 8px;
+            size: 64px;
+            height: 36px;
+            color:black;
+            cursor: pointer;
+        }
+    }
+}
