@@ -1,4 +1,4 @@
-import dynamo from '../public/dynamoui.png'
+import dynamo from '/dynamoui.png'
 import './nav.css'
 export default function Navbar() {
     return (
